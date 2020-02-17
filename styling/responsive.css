@@ -1,0 +1,61 @@
+/* iPad Screen  */
+@media (max-width: 768px){
+    .carousel-caption{
+        font-size: 0.7rem;
+        color: red;
+    }
+    p{
+        font-size: 1.2rem;
+    }
+    .navbar-collapse{
+        background: rgba(73, 73, 73,0.9);
+        position: absolute; 
+        top: 100%;
+        left:-25px;
+        width: 100%;
+        z-index: 10;
+        color: #fff;
+        padding-bottom: 10px;
+        padding-left: 10px;
+    }
+    .navbar-nav li a{
+        color: #fff;
+    }
+    .navbar-nav li a:hover::before{
+        width: 0;
+    }
+    .navbar-nav li.active a::before{
+        width: 0;
+    }
+
+    .about{
+        margin-top: 80px;
+    }
+    .about-us > div:first-child{
+        margin-bottom: 2rem;
+    }
+    .contact-form .btn{
+        margin-left: 15px;
+    }
+}
+
+/* End of iPad Screen */
+
+@media (max-width: 480px){
+    .carousel-control-prev{
+        left: 76%;
+        width: 30px;
+        height: 30px;
+    }
+
+    .carousel-control-next{
+        width: 30px;
+        height: 30px;
+    }
+    .nav-pills a{
+        font-size: 14px;
+    }
+    .footer-copyright{
+        padding-left: 15px;
+    }
+}
